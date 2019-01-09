@@ -1,5 +1,5 @@
 # RecyclerViewFlipper
-A custom ViewFlipper to dinamically add views at runtime without render-loss time
+A custom ViewFlipper to dynamically add views at runtime without render-loss time
 
 The <b>RecyclerViewFlipper</b> is a Custom <b>ViewFlipper</b> that allows you to scroll between an infinite number of <b>Views</b> without render-loss time. The component stores a <b>double-ended queue</b> (deque) in order to pre-load the views that need to be shown. In this way, you could <b>dinamically</b> add an infinite (we suppose to!) odd number of views without wasting your time in pre-rendering phases while scrolling.
 The RecyclerViewFlipper also supports <b>animations</b> as its superclass ViewFlipper, and distorts the way of seeing the views since they are handled as a <b>stack</b>, but stored as a deque.
